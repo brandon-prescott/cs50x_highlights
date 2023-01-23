@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+
+    <div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Cash Balance ($)</th>
+                    <th>Grand Total ($)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{ "%0.2f" | format(cash_balance | float) }}</th>
+                    <td>{{ "%0.2f" | format(grand_total | float) }}</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Unit Price ($)</th>
+                    <th>Symbol</th>
+                    <th>Number of Shares</th>
+                    <th>Total Value ($)</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for stock in summary_list %}
+                    <tr>
+                        <td>{{ stock["name"] }}</td>
+                        <td>{{ "%0.2f" | format(stock["price"] | float) }}</td>
+                        <td>{{ stock["symbol"] }}</td>
+                        <td>{{ stock["quantity"] }}</td>
+                        <td>{{ "%0.2f" | format(stock["total"] | float) }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

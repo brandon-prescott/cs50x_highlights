@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+
+    <div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Unit Price ($)</th>
+                    <th>Symbol</th>
+                    <th>Number of Shares</th>
+                    <th>Time</th>
+                    <th>Transaction Type</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for transaction in sorted_transaction_history %}
+                    <tr>
+                        <td>{{ transaction["name"] }}</td>
+                        <td>{{ "%0.2f" | format(transaction["price"] | float) }}</td>
+                        <td>{{ transaction["symbol"] }}</td>
+                        <td>{{ transaction["quantity"] }}</td>
+                        <td>{{ transaction["time"] }}</td>
+                        <td>{{ transaction["type"] }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
