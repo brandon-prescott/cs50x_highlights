@@ -10,7 +10,7 @@ Steps to run the program:
 
 (2) Ensure clang-12 is installed on your Linux system, then run: **make filter**
 
-(3a) Run the following command: **./filter -[FILTER] images/[IMAGE].bmp [OUTPUT_FILENAME].bmp**
+(3a) Run the following command: **./filter -[FILTER] images/[INFILE].bmp [OUTFILE].bmp**
 
 (3b) Example: **./filter -g images/yard.bmp out.bmp**
 
