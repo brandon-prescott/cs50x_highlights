@@ -14,4 +14,4 @@ Steps to run the program:
 
 (3b) Example: **./filter -g images/yard.bmp out.bmp**
 
-(3c) The following filters are available: grayscale (-g), sepia (-s), reflect (-r) and blur (-b)
+(3c) The following filters are available: grayscale (-g), sepia (-s), reflect (-r) and blur (-b).
