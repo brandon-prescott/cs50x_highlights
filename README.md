@@ -6,4 +6,5 @@
 
 **Finance:** Fake trading application built using the Python Flask framework that allows users to buy and sell company stocks.
 
-**Jobs (final project):** Web scraper that automatically searches Software Engineering job postings, extracts the summary information and writes it to a database and CSV file.
+**Jobs (final project):** Web scraper that automatically searches job postings, extracts the summary information and writes it to a database and CSV file.
+
