@@ -10,4 +10,8 @@ Steps to run the program:
 
 2) Ensure clang-12 is installed on your Linux system, then run: **make filter**
 
-3) Run the following command: **./filter -[FILTER] images/[IMAGE].bmp [OUTPUT_FILENAME].bmp**
+3a) Run the following command: **./filter -[FILTER] images/[IMAGE].bmp [OUTPUT_FILENAME].bmp**
+
+3b) Example: **./filter -g images/yard.bmp out.bmp
+
+3c) The following filters are available: grayscale (-g), sepia (-s), reflect (-r) and blur (-b)
