@@ -12,6 +12,6 @@ Steps to run the program:
 
 (3a) Run the following command: **./filter -[FILTER] images/[IMAGE].bmp [OUTPUT_FILENAME].bmp**
 
-(3b) Example: **./filter -g images/yard.bmp out.bmp
+(3b) Example: **./filter -g images/yard.bmp out.bmp**
 
 (3c) The following filters are available: grayscale (-g), sepia (-s), reflect (-r) and blur (-b)
