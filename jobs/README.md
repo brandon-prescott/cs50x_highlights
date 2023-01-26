@@ -1,5 +1,5 @@
 # JOB SCRAPER
-#### Video Demo: https://www.youtube.com/watch?v=uGP11EjHv9Y
+
 #### Description:
 I know how time-consuming it can be to sift through countless job listings in search of the perfect opportunity. That's why I decided to build a web scraper using Python and Beautiful Soup to automate the process.
 
