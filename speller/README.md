@@ -12,6 +12,6 @@ Steps to run the program:
 
 (3a) Run the following command: **./speller [DICTIONARY] texts/[TEXT].txt**
 
-(3b) Example: ./speller dictionaries/large texts/lalaland.txt**
+(3b) Example: **./speller dictionaries/large texts/lalaland.txt**
 
 (3c) Note: The dictionaries argument can be omitted and it will default to the large dictionary (the small one was for testing during development)
