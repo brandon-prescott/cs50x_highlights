@@ -23,6 +23,3 @@ get_job_summary(job_url): Takes the current job posting URL as an input and retu
 write_to_database(job_summary): Takes in a single job posting dictionary and executes a database query to insert the job to the table.
 
 write_to_csv(job_summary_list): Takes the list of all job postings and writes the same information to a CSV file.
-
-
-If you're a software engineer looking for a new opportunity, give my web scraper a try and see how it can streamline your job search process. Happy job hunting!
