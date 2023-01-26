@@ -9,6 +9,16 @@ The scrape.py file starts by asking the user how many pages it wants them to scr
 It then produces a dictionary summary for each job posting, containing: Job title, location, programming languages and the URL. The programming language data is stored as a 0 or 1 depending on whether the language exists in the posting or not, as this will also help a user with generating summary statistics. The data is written to both an SQL database and CSV file, depending on how someone might want to use the data for post-processing i.e. producing summary graphs in Excel or embedding the results in a web application using SQL.
 
 
-Steps for running the program:
+Steps to run the program:
+
+(1) Navigate to the program's directory in the terminal
+
+(2) Ensure python is installed on your system, along with the following libraries: bs4, requests, csv, sqlite3
+
+(3) Run the following command: **python3 scrape.py**
+
+(4) Enter the number of pages you want to scrape (~10s per page)
+
+(5) Check the output csv for the summary data, or run **sqlite3 jobs.db** to find the data in the db file
 
 
