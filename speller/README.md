@@ -14,4 +14,4 @@ Steps to run the program:
 
 (3b) Example: **./speller dictionaries/large texts/lalaland.txt**
 
-(3c) Note: The dictionaries argument can be omitted and it will default to the large dictionary (the small one was for testing during development)
+(3c) Note: The dictionaries argument can be omitted and it will default to the large dictionary (the small one was for testing during development).
