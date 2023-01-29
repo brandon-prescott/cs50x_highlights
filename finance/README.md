@@ -5,4 +5,13 @@ This program is a web application, built using the Python Flask framework, that 
 
 Ensure Python 3 is installed on your system along with the following libraries:
 
-* aaa
+* cs50
+* flask
+* flask_session
+* werkzeug
+* requests
+* urllib
+
+**Configure**
+
+Before running the program, 
