@@ -6,9 +6,12 @@ This program takes an input .bmp image, applies a filter to it, then generates a
 
 Steps to run the program:
 
-(1) Navigate to the program's directory in the terminal.
+(1) Ensure clang-12 is installed on your Linux system with
+```shell
+hello
+```
 
-(2) Ensure clang-12 is installed on your Linux system, then run: **make filter**
+(2) , then run: **make filter**
 
 (3a) Run the following command: **./filter -[FILTER] images/[INFILE].bmp [OUTFILE].bmp**
 
