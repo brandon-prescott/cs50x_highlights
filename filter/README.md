@@ -6,18 +6,18 @@ This program takes an input .bmp image, applies a filter to it, then generates a
 
 Steps to run the program:
 
-(1) Ensure clang-12 is installed on your Linux system by running
+Ensure clang-12 is installed on your Linux system by running
 ```shell
 $ sudo apt install clang-12 --install-suggests
 ```
 
-(2) Navigate to the directory containing the filter program and run
+Navigate to the directory containing the filter program and run
 ```shell
 ~/filter$ make filter
 ```
 
-(3a) Run the following command: **./filter -[FILTER] images/[INFILE].bmp [OUTFILE].bmp**
+Run the following command: **./filter -[FILTER] images/[INFILE].bmp [OUTFILE].bmp**
 
-(3b) Example: **./filter -g images/yard.bmp out.bmp**
+Example: **./filter -g images/yard.bmp out.bmp**
 
-(3c) The following filters are available: grayscale (-g), sepia (-s), reflect (-r) and blur (-b).
+The following filters are available: grayscale (-g), sepia (-s), reflect (-r) and blur (-b).
