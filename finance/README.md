@@ -16,7 +16,7 @@ Ensure Python 3 is installed on your system along with the following libraries:
 
 Before running the program, you need to register for an API key in order to be able to query IEX's data. To do so, follow these steps:
 
-* Visit iexcloud.io/cloud-login#/register/.
+* Visit https://iexcloud.io/cloud-login#/register/.
 * Select the “Individual” account type, then enter your name, email address, and a password, and click “Create account”.
 * Once registered, scroll down to “Get started for free” and click “Select Start plan” to choose the free plan.
 * Once you’ve confirmed your account via a confirmation email, visit https://iexcloud.io/console/tokens.
@@ -27,4 +27,12 @@ Before running the program, you need to register for an API key in order to be a
 export API_KEY=value
 ```
 where value is that (pasted) value, without any space immediately before or after the =. You also may wish to paste that value in a text document somewhere, in case you need it again later.
+
+**Usage
+
+Start Flask’s built-in web server (within finance/)
+```shell
+$ flask run
+```
+Visit the URL outputted by flask to see the distribution code in action.
 
