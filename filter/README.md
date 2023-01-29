@@ -1,5 +1,5 @@
 # Filter
-This program takes an input .bmp image, applies a filter to it, then generates an output .bmp version of the image with the filter applied. The program is currently set up to be compiled on Linux with the clang-12 compiler (see Makefile).
+This program takes an input .bmp image then generates an output .bmp version of the image with a filter applied. The program is currently set up to be compiled on Linux with the clang-12 compiler (see Makefile).
 
 **Build**
 
