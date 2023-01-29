@@ -35,7 +35,7 @@ where value is that (pasted) value, without any space immediately before or afte
 
 **Usage**
 
-Start Flask’s built-in web server (within finance/)
+Start Flask’s built-in web server (within finance/) by running
 ```shell
 $ flask run
 ```
