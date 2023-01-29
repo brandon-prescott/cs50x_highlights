@@ -8,7 +8,7 @@ Steps to run the program:
 
 (1) Ensure clang-12 is installed on your Linux system with
 ```shell
-hello
+$ sudo apt install clang-12 --install-suggests
 ```
 
 (2) , then run: **make filter**
