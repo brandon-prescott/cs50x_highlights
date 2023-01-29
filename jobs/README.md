@@ -14,7 +14,7 @@ Ensure Python 3 is installed on your system, along with the following libraries:
 ```shell
 $ python3 scrape.py
 ```
-The summary data can be viewed in the output CSV file or in the database file by running
+The summary data can be viewed in the output CSV file or in the database by running
 ```shell
 $ sqlite3 jobs.db
 ```
