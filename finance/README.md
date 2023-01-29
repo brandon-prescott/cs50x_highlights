@@ -12,6 +12,11 @@ Ensure Python 3 is installed on your system along with the following libraries:
 * requests
 * urllib
 
+Ensure SQLite3 is installed on your system by running
+```shell
+$ sudo apt install sqlite3
+```
+
 **Configure**
 
 Before running the program, you need to register for an API key in order to be able to query IEX's data. To do so, follow these steps:
