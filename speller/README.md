@@ -16,11 +16,11 @@ $ make speller
 $ ./speller DICTIONARY INFILE.txt
 ```
 ```shell
-$ ./speller dictionaries/large lalaland.txt
+$ ./speller dictionaries/large texts/lalaland.txt
 ```
 The dictionary argument can be omitted and the program will default to using the large dictionary
 ```shell
-$ ./speller lalaland.txt
+$ ./speller texts/lalaland.txt
 ```
 
 
