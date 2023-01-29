@@ -15,9 +15,23 @@ Navigate to the directory containing the filter program and run
 ```shell
 ~/filter$ make filter
 ```
+**Usage**
+```shell
+~/filter$ ./filter -g INFILE.bmp OUTFILE.bmp
+```
 
-Run the following command: **./filter -[FILTER] images/[INFILE].bmp [OUTFILE].bmp**
+```shell
+~/filter$ ./filter -s INFILE.bmp OUTFILE.bmp
+```
 
-Example: **./filter -g images/yard.bmp out.bmp**
+```shell
+~/filter$ ./filter -r INFILE.bmp OUTFILE.bmp
+```
+
+```shell
+~/filter$ ./filter -b INFILE.bmp OUTFILE.bmp
+```
+
+
 
 The following filters are available: grayscale (-g), sepia (-s), reflect (-r) and blur (-b).
