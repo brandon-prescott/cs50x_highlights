@@ -13,10 +13,10 @@ $ sudo apt install clang-12 --install-suggests
 
 Navigate to the directory containing the filter program and run
 ```shell
-~/filter$ make filter
+$ make filter
 ```
 **Usage**
 ```shell
-~/filter$ ./filter -FILTER INFILE.bmp OUTFILE.bmp
+$ ./filter -FILTER INFILE.bmp OUTFILE.bmp
 ```
 The following filters are available: grayscale (-g), sepia (-s), reflect (-r) and blur (-b).
