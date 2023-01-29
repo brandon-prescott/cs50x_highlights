@@ -8,7 +8,7 @@ It then produces a dictionary summary for each job posting, containing: Job titl
 
 **Build**
 
-Ensure Python 3 is installed on your system, along with the following libraries:
+Ensure Python 3 is installed on your system, along with the following libraries (use pip install):
 
 * bs4
 * requests
