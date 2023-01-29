@@ -10,7 +10,6 @@ Ensure clang-12 is installed on your Linux system by running
 ```shell
 $ sudo apt install clang-12 --install-suggests
 ```
-
 Navigate to the directory containing the filter program and run
 ```shell
 $ make filter
@@ -18,5 +17,8 @@ $ make filter
 **Usage**
 ```shell
 $ ./filter -FILTER INFILE.bmp OUTFILE.bmp
+```
+```shell
+$ ./filter -g images/yard.bmp yard_g.bmp
 ```
 The following filters are available: grayscale (-g), sepia (-s), reflect (-r) and blur (-b).
