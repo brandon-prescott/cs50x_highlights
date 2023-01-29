@@ -15,7 +15,7 @@ Ensure Python 3 is installed on your system, along with the following libraries:
 
 Ensure SQLite3 is installed on your system by running
 ```shell
-$ psudo apt install sqlite3
+$ sudo apt install sqlite3
 ```
 
 **Usage**
