@@ -28,7 +28,7 @@ export API_KEY=value
 ```
 where value is that (pasted) value, without any space immediately before or after the =. You also may wish to paste that value in a text document somewhere, in case you need it again later.
 
-**Usage
+**Usage**
 
 Start Flask’s built-in web server (within finance/)
 ```shell
